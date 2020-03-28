@@ -1,6 +1,9 @@
 # NanoGrids
 ### Arduino Nano version of Mutable Instruments Grids
 
+![Blue NanoGrids](/Images/blue.jpg)
+Format: ![images of the blue NanoGrids](url)
+
 Made this version  with Thru Hole parts and a Arduino Nano.
 Schematics are heavely based on Mutable Instruments schematics.
 
