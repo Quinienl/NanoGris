@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>\\192.168.2.222\Programming\grids\hardware_design\GridsNanov3\GridsNanoV2\GridsNanoV3.sch</source>
+    <date>27-3-2020 14:19:51</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>GridsNanoV3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MCP6002_1</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="MCP6002-xP-Amplifier_Operational" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD224DA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9D32D9</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Arduino_Nano_v2.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2971E2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2971F4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2971F3</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E047B6B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E047B5C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E047B53</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2971EE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFD08CF</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2971EC</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2971EB</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2971EA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD088A8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP6002_1</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="MCP6002-xP-Amplifier_Operational" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B83D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B858</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B85E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B864</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B871</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B87B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B894</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B89A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B8A0</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B8AD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B8B7</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD7B8C8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP6002_1</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="MCP6002-xP-Amplifier_Operational" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C1B</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C36</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C3C</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C42</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C4F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C59</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C72</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C78</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C7E</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C8B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7C95</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA7CA6</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E677C32</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E677C38</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="2N3904-Transistor_BJT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E677C46</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E677C55</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E54CCC8</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="2N3904-Transistor_BJT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E51C3E4</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E48F1EF</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E478D97</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3A8CE6</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.47nf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E378854</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LM4040LP-5</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Wide</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="LM4040LP-5-Reference_Voltage" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E34B196</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC5A972</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC5A95D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC772C7</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.47uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC6DF95</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="L7805-Regulator_Linear" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC68431</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC3D618</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10r</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC3D611</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="D-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC3D609</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC3A932</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10r</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC370A9</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="D-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC322CB</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Conn_02x05_Odd_Even-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC2A3D5</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC2184D</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC210BD</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC209D9</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC204FC</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC201D4</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC1D53A</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74HC595</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="74HC595-74xx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC1C0E5</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CDD9F</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100r</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4F93F8</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>100r</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4F93FE</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100r</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4F9404</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>100r</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4F940A</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1DD187</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x10</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Conn_01x10-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDE1ED6</tstamp>
+    </comp>
+    <comp ref="CH3">
+      <value>CH3</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF722B</tstamp>
+    </comp>
+    <comp ref="CH1_AC1">
+      <value>CH1_ACC</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF721E</tstamp>
+    </comp>
+    <comp ref="CH2_AC1">
+      <value>CH2_ACC</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF7211</tstamp>
+    </comp>
+    <comp ref="CH3_AC1">
+      <value>CH3_ACC</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF7204</tstamp>
+    </comp>
+    <comp ref="CLK1">
+      <value>ClockOutput</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF71F7</tstamp>
+    </comp>
+    <comp ref="RND1">
+      <value>RandomGate</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF71EA</tstamp>
+    </comp>
+    <comp ref="CH2">
+      <value>CH2</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF71D6</tstamp>
+    </comp>
+    <comp ref="CH1">
+      <value>CH1</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF71C9</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x10</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Conn_01x10-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E67FC26</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x12</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Conn_01x12-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFE3A6D</tstamp>
+    </comp>
+    <comp ref="RESET1">
+      <value>CV_RESET</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF7381</tstamp>
+    </comp>
+    <comp ref="CLOCK1">
+      <value>CV_CLOCK</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF7373</tstamp>
+    </comp>
+    <comp ref="P_TEMPO1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A98A1</tstamp>
+    </comp>
+    <comp ref="CH2_FILL1">
+      <value>CV_CH2</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A98A0</tstamp>
+    </comp>
+    <comp ref="P_CH2">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF7324</tstamp>
+    </comp>
+    <comp ref="CH1_FILL1">
+      <value>CV_CH1</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF731E</tstamp>
+    </comp>
+    <comp ref="P_CH1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF7301</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>CV_X</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A9896</tstamp>
+    </comp>
+    <comp ref="P_X1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF72DE</tstamp>
+    </comp>
+    <comp ref="CH3_FILL1">
+      <value>CV_CH3</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF72D8</tstamp>
+    </comp>
+    <comp ref="P_CH3">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A988D</tstamp>
+    </comp>
+    <comp ref="RND2">
+      <value>CV_RND</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A988C</tstamp>
+    </comp>
+    <comp ref="P_RND1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A9888</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>CV_Y</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="AudioJack2-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A9887</tstamp>
+    </comp>
+    <comp ref="P_Y1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF7275</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>CLK</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCF7258</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>CH3</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A9880</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>CH2</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A987F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>CH1</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9A987E</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1F1794</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Conn_01x03-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2710EF</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x10</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Conn_01x10-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B656A</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x10</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Conn_01x10-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE8B478</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x12</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Conn_01x12-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E046254</tstamp>
+    </comp>
+    <comp ref="RESET2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6FA71D</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Symbol:OSHW-Logo2_7.3x6mm_SilkScreen</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Fiducial-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC105A</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Symbol:OSHW-Logo2_14.6x12mm_SilkScreen</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="GridsNanoV3-rescue" part="Fiducial-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFE5632</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="GridsNanoV3-rescue" part="2N3904-Transistor_BJT">
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904-Transistor_BJT</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="74HC595-74xx">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595-74xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue">
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="AudioJack2-Connector">
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2-Connector</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="CP-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="Conn_01x03-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="Conn_01x10-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="Conn_01x12-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="Conn_02x05_Odd_Even-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="D-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="Fiducial-Mechanical">
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="L7805-Regulator_Linear">
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805-Regulator_Linear</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="LM4040LP-5-Reference_Voltage">
+      <footprints>
+        <fp>TO?92*Inline*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4040LP-5-Reference_Voltage</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="MCP6002-xP-Amplifier_Operational">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6002-xP-Amplifier_Operational</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="MountingHole-Mechanical">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="R_POT-Device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GridsNanoV3-rescue" part="SW_Push-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="GridsNanoV3-rescue">
+      <uri>\\192.168.2.222\Programming\grids\hardware_design\GridsNanov3\GridsNanoV2/GridsNanoV3-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CH3_ACC">
+      <node ref="J7" pin="6"/>
+      <node ref="CH3_AC1" pin="T"/>
+      <node ref="J15" pin="6"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="2" name="CH2_ACC">
+      <node ref="CH2_AC1" pin="T"/>
+      <node ref="J15" pin="5"/>
+      <node ref="J7" pin="5"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="3" name="CH1_ACC">
+      <node ref="R35" pin="1"/>
+      <node ref="CH1_AC1" pin="T"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J15" pin="4"/>
+    </net>
+    <net code="4" name="CH3">
+      <node ref="CH3" pin="T"/>
+      <node ref="R34" pin="1"/>
+      <node ref="J15" pin="3"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="5" name="CH2">
+      <node ref="J15" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="CH2" pin="T"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="6" name="CH1">
+      <node ref="J7" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="CH1" pin="T"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="RESET1" pin="S"/>
+      <node ref="P_CH2" pin="1"/>
+      <node ref="P_RND1" pin="1"/>
+      <node ref="CH1_FILL1" pin="S"/>
+      <node ref="CLOCK1" pin="S"/>
+      <node ref="P_TEMPO1" pin="1"/>
+      <node ref="CH2_FILL1" pin="S"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Y1" pin="S"/>
+      <node ref="P_CH3" pin="1"/>
+      <node ref="RND2" pin="S"/>
+      <node ref="D4" pin="1"/>
+      <node ref="P_Y1" pin="1"/>
+      <node ref="J15" pin="10"/>
+      <node ref="J14" pin="10"/>
+      <node ref="RESET2" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J16" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R44" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="CH3_FILL1" pin="S"/>
+      <node ref="P_X1" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="P_CH1" pin="1"/>
+      <node ref="X1" pin="S"/>
+      <node ref="A1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="A1" pin="29"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="CH2" pin="S"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="CH3_AC1" pin="S"/>
+      <node ref="U6" pin="8"/>
+      <node ref="CLK1" pin="S"/>
+      <node ref="CH3" pin="S"/>
+      <node ref="J7" pin="10"/>
+      <node ref="CH1" pin="S"/>
+      <node ref="RND1" pin="S"/>
+      <node ref="U6" pin="13"/>
+      <node ref="CH2_AC1" pin="S"/>
+      <node ref="J12" pin="8"/>
+      <node ref="CH1_AC1" pin="S"/>
+      <node ref="J12" pin="7"/>
+      <node ref="J12" pin="6"/>
+      <node ref="J12" pin="5"/>
+      <node ref="J12" pin="4"/>
+      <node ref="J13" pin="10"/>
+      <node ref="J12" pin="3"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="8" name="CH_CLOCK">
+      <node ref="J7" pin="8"/>
+      <node ref="R38" pin="1"/>
+      <node ref="J15" pin="8"/>
+      <node ref="CLK1" pin="T"/>
+    </net>
+    <net code="9" name="Net-(A1-Pad8)">
+      <node ref="R26" pin="1"/>
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="10" name="J_CLK">
+      <node ref="J14" pin="1"/>
+      <node ref="CLOCK1" pin="T"/>
+      <node ref="R40" pin="2"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="11" name="Net-(A1-Pad10)">
+      <node ref="R28" pin="1"/>
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="12" name="Net-(A1-Pad9)">
+      <node ref="A1" pin="9"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="13" name="Net-(A1-Pad7)">
+      <node ref="R25" pin="1"/>
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="14" name="+5V">
+      <node ref="R42" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="P_CH1" pin="3"/>
+      <node ref="P_CH3" pin="3"/>
+      <node ref="P_RND1" pin="3"/>
+      <node ref="R45" pin="1"/>
+      <node ref="J13" pin="9"/>
+      <node ref="A1" pin="30"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J7" pin="9"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="P_X1" pin="3"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P_TEMPO1" pin="3"/>
+      <node ref="P_Y1" pin="3"/>
+      <node ref="P_CH2" pin="3"/>
+      <node ref="U6" pin="16"/>
+      <node ref="U6" pin="10"/>
+      <node ref="J14" pin="9"/>
+      <node ref="J16" pin="1"/>
+      <node ref="J15" pin="9"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="15" name="LED_CLOCK">
+      <node ref="R25" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J14" pin="7"/>
+      <node ref="J13" pin="7"/>
+    </net>
+    <net code="16" name="P_TEMPO">
+      <node ref="J14" pin="6"/>
+      <node ref="A1" pin="25"/>
+      <node ref="J13" pin="6"/>
+      <node ref="P_TEMPO1" pin="2"/>
+    </net>
+    <net code="17" name="LED_CH3">
+      <node ref="D3" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="J14" pin="5"/>
+      <node ref="J13" pin="5"/>
+    </net>
+    <net code="18" name="LED_CH2">
+      <node ref="D2" pin="2"/>
+      <node ref="J14" pin="4"/>
+      <node ref="J13" pin="4"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="19" name="LED_CH1">
+      <node ref="D1" pin="2"/>
+      <node ref="J14" pin="3"/>
+      <node ref="J13" pin="3"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="20" name="P_Y">
+      <node ref="J10" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="P_Y1" pin="2"/>
+    </net>
+    <net code="21" name="P_X">
+      <node ref="P_X1" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="22" name="J_RND">
+      <node ref="R13" pin="2"/>
+      <node ref="J10" pin="12"/>
+      <node ref="RND2" pin="T"/>
+      <node ref="J11" pin="12"/>
+    </net>
+    <net code="23" name="P_RND">
+      <node ref="J10" pin="11"/>
+      <node ref="P_RND1" pin="2"/>
+      <node ref="J11" pin="11"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="24" name="J_CH1">
+      <node ref="J11" pin="10"/>
+      <node ref="J10" pin="10"/>
+      <node ref="R10" pin="2"/>
+      <node ref="CH1_FILL1" pin="T"/>
+    </net>
+    <net code="25" name="J_X">
+      <node ref="R5" pin="2"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="X1" pin="T"/>
+    </net>
+    <net code="26" name="CH_RND">
+      <node ref="RND1" pin="T"/>
+      <node ref="J7" pin="7"/>
+      <node ref="J15" pin="7"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="J12" pin="10"/>
+      <node ref="J12" pin="9"/>
+    </net>
+    <net code="28" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D5-Pad2)">
+      <node ref="J12" pin="2"/>
+      <node ref="J12" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="31" name="SCK">
+      <node ref="U6" pin="11"/>
+      <node ref="A1" pin="16"/>
+    </net>
+    <net code="32" name="MOSI">
+      <node ref="U6" pin="14"/>
+      <node ref="A1" pin="14"/>
+    </net>
+    <net code="33" name="SS">
+      <node ref="A1" pin="13"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="34" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R34-Pad2)">
+      <node ref="U6" pin="2"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="36" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="37" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="38" name="Net-(R36-Pad2)">
+      <node ref="R36" pin="2"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="39" name="Net-(R35-Pad2)">
+      <node ref="R35" pin="2"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="40" name="Net-(R37-Pad2)">
+      <node ref="R37" pin="2"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="41" name="J_Y">
+      <node ref="J11" pin="4"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Y1" pin="T"/>
+      <node ref="J10" pin="4"/>
+    </net>
+    <net code="42" name="Net-(R32-Pad2)">
+      <node ref="U6" pin="15"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="43" name="IN_MIDI">
+      <node ref="J16" pin="2"/>
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="45" name="SW_RESET">
+      <node ref="J13" pin="8"/>
+      <node ref="J14" pin="8"/>
+      <node ref="A1" pin="6"/>
+      <node ref="RESET2" pin="1"/>
+    </net>
+    <net code="46" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="47" name="P_CH1">
+      <node ref="R9" pin="2"/>
+      <node ref="J10" pin="9"/>
+      <node ref="J11" pin="9"/>
+      <node ref="P_CH1" pin="2"/>
+    </net>
+    <net code="48" name="J_CH3">
+      <node ref="J10" pin="8"/>
+      <node ref="R18" pin="2"/>
+      <node ref="J11" pin="8"/>
+      <node ref="CH3_FILL1" pin="T"/>
+    </net>
+    <net code="49" name="P_CH3">
+      <node ref="J10" pin="7"/>
+      <node ref="P_CH3" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="J11" pin="7"/>
+    </net>
+    <net code="50" name="P_CH2">
+      <node ref="J11" pin="6"/>
+      <node ref="J10" pin="6"/>
+      <node ref="R20" pin="2"/>
+      <node ref="P_CH2" pin="2"/>
+    </net>
+    <net code="51" name="J_CH2">
+      <node ref="CH2_FILL1" pin="T"/>
+      <node ref="J10" pin="5"/>
+      <node ref="R21" pin="2"/>
+      <node ref="J11" pin="5"/>
+    </net>
+    <net code="52" name="CV_RND">
+      <node ref="C6" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="A1" pin="21"/>
+    </net>
+    <net code="53" name="CV_X">
+      <node ref="A1" pin="19"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="54" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C6-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="57" name="Net-(A1-Pad12)">
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="58" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="59" name="Net-(A1-Pad17)">
+      <node ref="A1" pin="17"/>
+    </net>
+    <net code="60" name="Net-(A1-Pad11)">
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="61" name="IN_CLOCK">
+      <node ref="R42" pin="2"/>
+      <node ref="A1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="62" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="63" name="IN_RESET">
+      <node ref="R45" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="64" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="65" name="Net-(A1-Pad27)">
+      <node ref="A1" pin="27"/>
+    </net>
+    <net code="66" name="CV_CH3">
+      <node ref="U3" pin="7"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="67" name="CV_CH2">
+      <node ref="A1" pin="23"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="68" name="CV_CH1">
+      <node ref="C5" pin="1"/>
+      <node ref="A1" pin="22"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="69" name="Net-(C1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="70" name="ref_5">
+      <node ref="R22" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="71" name="CV_Y">
+      <node ref="A1" pin="20"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="72" name="+12V">
+      <node ref="C11" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="73" name="-12V">
+      <node ref="C14" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="74" name="Net-(Q1-Pad2)">
+      <node ref="R40" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="75" name="J_RESET">
+      <node ref="R43" pin="2"/>
+      <node ref="RESET1" pin="T"/>
+      <node ref="J14" pin="2"/>
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="76" name="Net-(Q2-Pad2)">
+      <node ref="R44" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="78" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="79" name="Net-(C9-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C9" pin="2"/>
+    </net>
+  </nets>
+</export>
