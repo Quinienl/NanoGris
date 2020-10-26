@@ -11,3 +11,6 @@ _Note: panel hole for button might be a bit to big or small (depends if you use 
 
 I made this for my own and would like to share it with you. I'm doing this as a hobby so expect support to be like that to ;)
 Everything at your own risk..
+
+Some info on my website that might help
+http://www.quinie.nl/?p=17
