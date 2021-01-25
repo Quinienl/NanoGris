@@ -13,4 +13,4 @@ I made this for my own and would like to share it with you. I'm doing this as a 
 Everything at your own risk..
 
 Some info on my website that might help
-http://www.quinie.nl/?p=17
+https://www.quinie.nl/nanogrids/
