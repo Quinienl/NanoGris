@@ -14,3 +14,6 @@ Everything at your own risk..
 
 Some info on my website that might help
 https://www.quinie.nl/nanogrids/
+
+hex file for uploading here
+https://www.quinie.nl/nanogrids-the-hex-file/
