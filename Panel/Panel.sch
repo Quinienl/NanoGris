@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Panel-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -262,7 +261,7 @@ U 1 1 5DD35E35
 P 2250 7800
 F 0 "H22" H 2350 7846 50  0000 L CNN
 F 1 "MountingHole" H 2350 7755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6.5mm" H 2250 7800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 2250 7800 50  0001 C CNN
 F 3 "~" H 2250 7800 50  0001 C CNN
 	1    2250 7800
 	1    0    0    -1  
@@ -273,7 +272,7 @@ U 1 1 5DD38B39
 P 2300 8400
 F 0 "H23" H 2400 8446 50  0000 L CNN
 F 1 "MountingHole" H 2400 8355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6.5mm" H 2300 8400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 2300 8400 50  0001 C CNN
 F 3 "~" H 2300 8400 50  0001 C CNN
 	1    2300 8400
 	1    0    0    -1  
@@ -284,7 +283,7 @@ U 1 1 5DD39C6C
 P 2350 9050
 F 0 "H24" H 2450 9096 50  0000 L CNN
 F 1 "MountingHole" H 2450 9005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6.5mm" H 2350 9050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 2350 9050 50  0001 C CNN
 F 3 "~" H 2350 9050 50  0001 C CNN
 	1    2350 9050
 	1    0    0    -1  
@@ -295,7 +294,7 @@ U 1 1 5DD3AED0
 P 2400 9550
 F 0 "H25" H 2500 9596 50  0000 L CNN
 F 1 "MountingHole" H 2500 9505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6.5mm" H 2400 9550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 2400 9550 50  0001 C CNN
 F 3 "~" H 2400 9550 50  0001 C CNN
 	1    2400 9550
 	1    0    0    -1  
@@ -306,7 +305,7 @@ U 1 1 5DD3F544
 P 3550 7950
 F 0 "H26" H 3650 7996 50  0000 L CNN
 F 1 "MountingHole" H 3650 7905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6.5mm" H 3550 7950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 3550 7950 50  0001 C CNN
 F 3 "~" H 3550 7950 50  0001 C CNN
 	1    3550 7950
 	1    0    0    -1  
@@ -317,7 +316,7 @@ U 1 1 5DD3F54A
 P 3600 8450
 F 0 "H27" H 3700 8496 50  0000 L CNN
 F 1 "MountingHole" H 3700 8405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6.5mm" H 3600 8450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 3600 8450 50  0001 C CNN
 F 3 "~" H 3600 8450 50  0001 C CNN
 	1    3600 8450
 	1    0    0    -1  
@@ -328,7 +327,7 @@ U 1 1 5DD42E60
 P 3750 9200
 F 0 "H28" H 3850 9246 50  0000 L CNN
 F 1 "MountingHole" H 3850 9155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_6.5mm" H 3750 9200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8" H 3750 9200 50  0001 C CNN
 F 3 "~" H 3750 9200 50  0001 C CNN
 	1    3750 9200
 	1    0    0    -1  
