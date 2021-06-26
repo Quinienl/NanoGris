@@ -1,14 +1,15 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*
-G04 #@! TF.CreationDate,2020-03-28T09:42:38+01:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*
+G04 #@! TF.CreationDate,2021-06-26T23:55:21+02:00*
 G04 #@! TF.ProjectId,GridsNanoV3,47726964-734e-4616-9e6f-56332e6b6963,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2020-03-28 09:42:38*
+G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2021-06-26 23:55:21*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
 M02*

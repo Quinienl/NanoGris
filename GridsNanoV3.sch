@@ -2568,7 +2568,7 @@ AR Path="/5E7CFD64/5E9A98A1" Ref="RV_TEMPO?"  Part="1"
 AR Path="/5DCD8F3E/5E9A98A1" Ref="RV_TEMPO?"  Part="1" 
 F 0 "P_TEMPO1" H 8680 13896 50  0000 R CNN
 F 1 "10k" H 8680 13805 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 8750 13850 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 8750 13850 50  0001 C CNN
 F 3 "~" H 8750 13850 50  0001 C CNN
 	1    8750 13850
 	1    0    0    -1  
@@ -2648,7 +2648,7 @@ AR Path="/5E7CFD64/5DCF7324" Ref="RV_CV_CH?"  Part="1"
 AR Path="/5DCD8F3E/5DCF7324" Ref="RV_CV_CH?"  Part="1" 
 F 0 "P_CH2" H 6130 12896 50  0000 R CNN
 F 1 "10k" H 6130 12805 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6200 12850 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 6200 12850 50  0001 C CNN
 F 3 "~" H 6200 12850 50  0001 C CNN
 	1    6200 12850
 	1    0    0    -1  
@@ -2728,7 +2728,7 @@ AR Path="/5E7CFD64/5DCF7301" Ref="RV_CV_CH?"  Part="1"
 AR Path="/5DCD8F3E/5DCF7301" Ref="RV_CV_CH?"  Part="1" 
 F 0 "P_CH1" H 4980 12896 50  0000 R CNN
 F 1 "10k" H 4980 12805 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 5050 12850 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 5050 12850 50  0001 C CNN
 F 3 "~" H 5050 12850 50  0001 C CNN
 	1    5050 12850
 	1    0    0    -1  
@@ -2808,7 +2808,7 @@ AR Path="/5E7CFD64/5DCF72DE" Ref="RV_CV_CHX?"  Part="1"
 AR Path="/5DCD8F3E/5DCF72DE" Ref="RV_CV_CHX?"  Part="1" 
 F 0 "P_X1" H 6230 14646 50  0000 R CNN
 F 1 "10k" H 6230 14555 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 6300 14600 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 6300 14600 50  0001 C CNN
 F 3 "~" H 6300 14600 50  0001 C CNN
 	1    6300 14600
 	1    0    0    -1  
@@ -2888,7 +2888,7 @@ AR Path="/5E7CFD64/5E9A988D" Ref="RV_CV_CH?"  Part="1"
 AR Path="/5DCD8F3E/5E9A988D" Ref="RV_CV_CH?"  Part="1" 
 F 0 "P_CH3" H 7330 12946 50  0000 R CNN
 F 1 "10k" H 7330 12855 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7400 12900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 7400 12900 50  0001 C CNN
 F 3 "~" H 7400 12900 50  0001 C CNN
 	1    7400 12900
 	1    0    0    -1  
@@ -3048,7 +3048,7 @@ AR Path="/5E7CFD64/5DCF7275" Ref="RV_CVY?"  Part="1"
 AR Path="/5DCD8F3E/5DCF7275" Ref="RV_CVY?"  Part="1" 
 F 0 "P_Y1" H 7430 14646 50  0000 R CNN
 F 1 "10k" H 7430 14555 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 7500 14600 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09L_Single_Vertical" H 7500 14600 50  0001 C CNN
 F 3 "~" H 7500 14600 50  0001 C CNN
 	1    7500 14600
 	1    0    0    -1  
