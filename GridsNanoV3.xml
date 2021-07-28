@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>\\192.168.2.222\Programming\grids\hardware_design\GridsNanov3\GridsNanoV2\GridsNanoV3.sch</source>
-    <date>27-3-2020 14:19:51</date>
-    <tool>Eeschema (5.1.5)-3</tool>
+    <source>D:\GitHub\NanoGrids\GridsNanoV3.sch</source>
+    <date>26-10-2020 20:10:37</date>
+    <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>NanoGrids made from Mutable Instruments Grids</title>
         <company/>
-        <rev/>
-        <date/>
+        <rev>0.3</rev>
+        <date>2020-03-28</date>
         <source>GridsNanoV3.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -396,7 +396,7 @@
       <tstamp>5E3A8CE6</tstamp>
     </comp>
     <comp ref="C15">
-      <value>0.47nf</value>
+      <value>0.47uf</value>
       <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="GridsNanoV3-rescue" part="CP-Device" description=""/>
@@ -468,7 +468,7 @@
       <tstamp>5DC3D611</tstamp>
     </comp>
     <comp ref="D6">
-      <value>D</value>
+      <value>1n4148</value>
       <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="GridsNanoV3-rescue" part="D-Device" description=""/>
@@ -492,7 +492,7 @@
       <tstamp>5DC370A9</tstamp>
     </comp>
     <comp ref="D5">
-      <value>D</value>
+      <value>1n4148</value>
       <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="GridsNanoV3-rescue" part="D-Device" description=""/>
@@ -1271,7 +1271,7 @@
   </libparts>
   <libraries>
     <library logical="GridsNanoV3-rescue">
-      <uri>\\192.168.2.222\Programming\grids\hardware_design\GridsNanov3\GridsNanoV2/GridsNanoV3-rescue.lib</uri>
+      <uri>D:\GitHub\NanoGrids/GridsNanoV3-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
