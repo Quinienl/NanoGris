@@ -10,7 +10,9 @@ I made this for my own and would like to share it with you. I'm doing this as a 
 Everything at your own risk..
 
 Some info on my website that might help
+
 https://www.quinie.nl/nanogris/
+
 https://www.quinie.nl/nanogris-gallery/
 
 If you don not want to order boards yourself please check out my shop.
