@@ -11,7 +11,7 @@ Everything at your own risk..
 
 Some info on my website that might help
 
-https://www.quinie.nl/nanogris/
+https://www.quinie.nl/category/diy/nanogris/
 
 https://www.quinie.nl/nanogris-gallery/
 
