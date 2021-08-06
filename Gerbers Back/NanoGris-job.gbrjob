@@ -7,19 +7,19 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6)-1"
     },
-    "CreationDate":  "2021-07-28T13:55:26+02:00"
+    "CreationDate":  "2021-08-06T14:07:39+02:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "GridsNanoV3",
-      "GUID": "47726964-734e-4616-9e6f-56332e6b6963",
+      "Name": "NanoGris",
+      "GUID": "4e616e6f-4772-4697-932e-6b696361645f",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 68.580,
+      "X": 67.450,
       "Y": 108.000
     },
     "LayerNumber": 2,
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "GridsNanoV3-F_Cu.gbr",
+      "Path":  "NanoGris-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GridsNanoV3-B_Cu.gbr",
+      "Path":  "NanoGris-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GridsNanoV3-F_Paste.gbr",
+      "Path":  "NanoGris-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GridsNanoV3-B_Paste.gbr",
+      "Path":  "NanoGris-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GridsNanoV3-F_SilkS.gbr",
+      "Path":  "NanoGris-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GridsNanoV3-B_SilkS.gbr",
+      "Path":  "NanoGris-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "GridsNanoV3-F_Mask.gbr",
+      "Path":  "NanoGris-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GridsNanoV3-B_Mask.gbr",
+      "Path":  "NanoGris-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "GridsNanoV3-Edge_Cuts.gbr",
+      "Path":  "NanoGris-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
