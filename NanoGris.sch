@@ -4,9 +4,9 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title "NanoGrids made from Mutable Instruments Grids"
+Title "NanoGris made from Mutable Instruments Grids"
 Date "2020-03-28"
-Rev "0.3"
+Rev "0.41"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -42,7 +42,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 6300 4800 6400
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR03
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR03
 U 1 1 5E2971E9
 P 4800 6300
 F 0 "#PWR03" H 4800 6150 50  0001 C CNN
@@ -53,7 +53,7 @@ F 3 "" H 4800 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR04
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR04
 U 1 1 5DD1C283
 P 4800 7100
 F 0 "#PWR04" H 4800 6850 50  0001 C CNN
@@ -64,7 +64,7 @@ F 3 "" H 4800 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U1
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U1
 U 3 1 5DD224DA
 P 4900 6750
 F 0 "U1" H 4858 6796 50  0000 L CNN
@@ -75,7 +75,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4900 6750 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U1
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U1
 U 2 1 5DD20870
 P 2950 5350
 F 0 "U1" H 2950 5717 50  0000 C CNN
@@ -86,7 +86,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2950 5350 50 
 	1    0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U1
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U1
 U 1 1 5DD1F302
 P 2950 6850
 F 0 "U1" H 2950 7217 50  0000 C CNN
@@ -103,7 +103,7 @@ NoConn ~ 3150 1300
 NoConn ~ 2550 2500
 NoConn ~ 2550 2600
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR07
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR07
 U 1 1 5E9E376F
 P 4450 2100
 F 0 "#PWR07" H 4450 1850 50  0001 C CNN
@@ -116,7 +116,7 @@ $EndComp
 Wire Wire Line
 	4150 2100 4450 2100
 $Comp
-L GridsNanoV3-rescue:C-Device C4
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C4
 U 1 1 5E9D32D9
 P 4000 2100
 F 0 "C4" V 3748 2100 50  0000 C CNN
@@ -129,7 +129,7 @@ $EndComp
 Wire Wire Line
 	3550 2100 3850 2100
 $Comp
-L GridsNanoV3-rescue:Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue A1
+L NanoGris-rescue:Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue-GridsNanoV3-rescue A1
 U 1 1 5E2971E2
 P 3050 2300
 F 0 "A1" H 3050 1211 50  0000 C CNN
@@ -140,7 +140,7 @@ F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 3050 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:PWR_FLAG-power #FLG01
+L NanoGris-rescue:PWR_FLAG-power-GridsNanoV3-rescue #FLG01
 U 1 1 5E990EB7
 P 16250 6800
 F 0 "#FLG01" H 16250 6875 50  0001 C CNN
@@ -151,7 +151,7 @@ F 3 "~" H 16250 6800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:-12V-power #PWR011
+L NanoGris-rescue:-12V-power-GridsNanoV3-rescue #PWR011
 U 1 1 5E98AE68
 P 17550 6650
 F 0 "#PWR011" H 17550 6750 50  0001 C CNN
@@ -162,7 +162,7 @@ F 3 "" H 17550 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR010
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR010
 U 1 1 5E2971FA
 P 17100 6650
 F 0 "#PWR010" H 17100 6500 50  0001 C CNN
@@ -173,7 +173,7 @@ F 3 "" H 17100 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+12V-power #PWR09
+L NanoGris-rescue:+12V-power-GridsNanoV3-rescue #PWR09
 U 1 1 5E2971F9
 P 16700 6650
 F 0 "#PWR09" H 16700 6500 50  0001 C CNN
@@ -188,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	17550 6800 17550 6650
 $Comp
-L GridsNanoV3-rescue:PWR_FLAG-power #FLG02
+L NanoGris-rescue:PWR_FLAG-power-GridsNanoV3-rescue #FLG02
 U 1 1 5E94D869
 P 16700 6800
 F 0 "#FLG02" H 16700 6875 50  0001 C CNN
@@ -199,7 +199,7 @@ F 3 "~" H 16700 6800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:PWR_FLAG-power #FLG03
+L NanoGris-rescue:PWR_FLAG-power-GridsNanoV3-rescue #FLG03
 U 1 1 5E93E82A
 P 17100 6800
 F 0 "#FLG03" H 17100 6875 50  0001 C CNN
@@ -210,7 +210,7 @@ F 3 "~" H 17100 6800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:PWR_FLAG-power #FLG04
+L NanoGris-rescue:PWR_FLAG-power-GridsNanoV3-rescue #FLG04
 U 1 1 5E93E33F
 P 17550 6800
 F 0 "#FLG04" H 17550 6875 50  0001 C CNN
@@ -239,7 +239,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3650 3150 3300
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR06
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR06
 U 1 1 5DC968E0
 P 3100 3650
 F 0 "#PWR06" H 3100 3400 50  0001 C CNN
@@ -257,7 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 5550 2650 5450
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR01
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR01
 U 1 1 5E047B91
 P 2650 5550
 F 0 "#PWR01" H 2650 5300 50  0001 C CNN
@@ -272,7 +272,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 4900 1750 4900
 $Comp
-L GridsNanoV3-rescue:R-Device R1
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R1
 U 1 1 5E2971F4
 P 2000 4900
 F 0 "R1" V 2000 4900 50  0000 C CNN
@@ -283,7 +283,7 @@ F 3 "~" H 2000 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R2
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R2
 U 1 1 5E2971F3
 P 2000 5100
 F 0 "R2" V 2000 5100 50  0000 C CNN
@@ -294,7 +294,7 @@ F 3 "~" H 2000 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R3
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R3
 U 1 1 5E047B6B
 P 2000 5300
 F 0 "R3" V 2000 5300 50  0000 C CNN
@@ -318,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 5250 2650 5250
 $Comp
-L GridsNanoV3-rescue:R-Device R7
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R7
 U 1 1 5E047B5C
 P 2850 4900
 F 0 "R7" V 2850 4900 50  0000 C CNN
@@ -336,7 +336,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4650 2700 4650
 $Comp
-L GridsNanoV3-rescue:C-Device C1
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C1
 U 1 1 5E047B53
 P 2850 4650
 F 0 "C1" V 2598 4650 50  0000 C CNN
@@ -367,7 +367,7 @@ ref_5
 Wire Wire Line
 	2650 7050 2650 6950
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR02
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR02
 U 1 1 5E2971EF
 P 2650 7050
 F 0 "#PWR02" H 2650 6800 50  0001 C CNN
@@ -382,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 6400 1750 6400
 $Comp
-L GridsNanoV3-rescue:R-Device R4
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R4
 U 1 1 5E2971EE
 P 2000 6400
 F 0 "R4" V 2000 6400 50  0000 C CNN
@@ -393,7 +393,7 @@ F 3 "~" H 2000 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R5
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R5
 U 1 1 5DFD08CF
 P 2000 6600
 F 0 "R5" V 2000 6600 50  0000 C CNN
@@ -404,7 +404,7 @@ F 3 "~" H 2000 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R6
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R6
 U 1 1 5E2971EC
 P 2000 6800
 F 0 "R6" V 2000 6800 50  0000 C CNN
@@ -428,7 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 6750 2650 6750
 $Comp
-L GridsNanoV3-rescue:R-Device R8
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R8
 U 1 1 5E2971EB
 P 2850 6400
 F 0 "R8" V 2850 6400 50  0000 C CNN
@@ -446,7 +446,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 6150 2700 6150
 $Comp
-L GridsNanoV3-rescue:C-Device C2
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C2
 U 1 1 5E2971EA
 P 2850 6150
 F 0 "C2" V 2598 6150 50  0000 C CNN
@@ -487,7 +487,7 @@ MOSI
 Text GLabel 2550 3000 0    50   BiDi ~ 0
 SCK
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR05
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR05
 U 1 1 5E2971E4
 P 2950 1100
 F 0 "#PWR05" H 2950 950 50  0001 C CNN
@@ -500,7 +500,7 @@ $EndComp
 Wire Wire Line
 	2950 1300 2950 1100
 $Comp
-L GridsNanoV3-rescue:C-Device C3
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C3
 U 1 1 5DD088A8
 P 4500 6800
 F 0 "C3" H 4350 6900 50  0000 L CNN
@@ -543,7 +543,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 6250 9200 6350
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR014
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR014
 U 1 1 5DD7B831
 P 9200 6250
 F 0 "#PWR014" H 9200 6100 50  0001 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 9200 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR015
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR015
 U 1 1 5DD7B837
 P 9200 7050
 F 0 "#PWR015" H 9200 6800 50  0001 C CNN
@@ -565,7 +565,7 @@ F 3 "" H 9200 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U2
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U2
 U 3 1 5DD7B83D
 P 9300 6700
 F 0 "U2" H 9258 6746 50  0000 L CNN
@@ -576,7 +576,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9300 6700 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U2
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U2
 U 2 1 5DD7B843
 P 7350 5300
 F 0 "U2" H 7350 5667 50  0000 C CNN
@@ -587,7 +587,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7350 5300 50 
 	1    0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U2
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U2
 U 1 1 5DD7B849
 P 7350 6800
 F 0 "U2" H 7350 7167 50  0000 C CNN
@@ -600,7 +600,7 @@ $EndComp
 Wire Wire Line
 	7050 5500 7050 5400
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR012
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR012
 U 1 1 5DD7B850
 P 7050 5500
 F 0 "#PWR012" H 7050 5250 50  0001 C CNN
@@ -615,7 +615,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 4850 6150 4850
 $Comp
-L GridsNanoV3-rescue:R-Device R9
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R9
 U 1 1 5DD7B858
 P 6400 4850
 F 0 "R9" V 6400 4850 50  0000 C CNN
@@ -626,7 +626,7 @@ F 3 "~" H 6400 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R10
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R10
 U 1 1 5DD7B85E
 P 6400 5050
 F 0 "R10" V 6400 5050 50  0000 C CNN
@@ -637,7 +637,7 @@ F 3 "~" H 6400 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R11
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R11
 U 1 1 5DD7B864
 P 6400 5250
 F 0 "R11" V 6400 5250 50  0000 C CNN
@@ -661,7 +661,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 5200 7050 5200
 $Comp
-L GridsNanoV3-rescue:R-Device R15
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R15
 U 1 1 5DD7B871
 P 7250 4850
 F 0 "R15" V 7250 4850 50  0000 C CNN
@@ -679,7 +679,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 4600 7100 4600
 $Comp
-L GridsNanoV3-rescue:C-Device C5
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C5
 U 1 1 5DD7B87B
 P 7250 4600
 F 0 "C5" V 6998 4600 50  0000 C CNN
@@ -710,7 +710,7 @@ ref_5
 Wire Wire Line
 	7050 7000 7050 6900
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR013
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR013
 U 1 1 5DD7B88C
 P 7050 7000
 F 0 "#PWR013" H 7050 6750 50  0001 C CNN
@@ -725,7 +725,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 6350 6150 6350
 $Comp
-L GridsNanoV3-rescue:R-Device R12
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R12
 U 1 1 5DD7B894
 P 6400 6350
 F 0 "R12" V 6400 6350 50  0000 C CNN
@@ -736,7 +736,7 @@ F 3 "~" H 6400 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R13
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R13
 U 1 1 5DD7B89A
 P 6400 6550
 F 0 "R13" V 6400 6550 50  0000 C CNN
@@ -747,7 +747,7 @@ F 3 "~" H 6400 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R14
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R14
 U 1 1 5DD7B8A0
 P 6400 6750
 F 0 "R14" V 6400 6750 50  0000 C CNN
@@ -771,7 +771,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 6700 7050 6700
 $Comp
-L GridsNanoV3-rescue:R-Device R16
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R16
 U 1 1 5DD7B8AD
 P 7250 6350
 F 0 "R16" V 7250 6350 50  0000 C CNN
@@ -789,7 +789,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 6100 7100 6100
 $Comp
-L GridsNanoV3-rescue:C-Device C6
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C6
 U 1 1 5DD7B8B7
 P 7250 6100
 F 0 "C6" V 6998 6100 50  0000 C CNN
@@ -820,7 +820,7 @@ Wire Wire Line
 Text GLabel 6100 5250 0    50   BiDi ~ 0
 ref_5
 $Comp
-L GridsNanoV3-rescue:C-Device C7
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C7
 U 1 1 5DD7B8C8
 P 8900 6750
 F 0 "C7" H 8750 6850 50  0000 L CNN
@@ -863,7 +863,7 @@ Wire Wire Line
 Wire Wire Line
 	13550 6050 13550 6150
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR018
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR018
 U 1 1 5DDA7C0F
 P 13550 6050
 F 0 "#PWR018" H 13550 5900 50  0001 C CNN
@@ -874,7 +874,7 @@ F 3 "" H 13550 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR019
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR019
 U 1 1 5DDA7C15
 P 13550 6850
 F 0 "#PWR019" H 13550 6600 50  0001 C CNN
@@ -885,7 +885,7 @@ F 3 "" H 13550 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U3
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U3
 U 3 1 5DDA7C1B
 P 13650 6500
 F 0 "U3" H 13608 6546 50  0000 L CNN
@@ -896,7 +896,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 13650 6500 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U3
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U3
 U 2 1 5DDA7C21
 P 11700 5100
 F 0 "U3" H 11700 5467 50  0000 C CNN
@@ -907,7 +907,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 11700 5100 50
 	1    0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:MCP6002-xP-Amplifier_Operational U3
+L NanoGris-rescue:MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U3
 U 1 1 5DDA7C27
 P 11700 6600
 F 0 "U3" H 11700 6967 50  0000 C CNN
@@ -920,7 +920,7 @@ $EndComp
 Wire Wire Line
 	11400 5300 11400 5200
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR016
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR016
 U 1 1 5DDA7C2E
 P 11400 5300
 F 0 "#PWR016" H 11400 5050 50  0001 C CNN
@@ -935,7 +935,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 4650 10500 4650
 $Comp
-L GridsNanoV3-rescue:R-Device R17
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R17
 U 1 1 5DDA7C36
 P 10750 4650
 F 0 "R17" V 10750 4650 50  0000 C CNN
@@ -946,7 +946,7 @@ F 3 "~" H 10750 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R18
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R18
 U 1 1 5DDA7C3C
 P 10750 4850
 F 0 "R18" V 10750 4850 50  0000 C CNN
@@ -957,7 +957,7 @@ F 3 "~" H 10750 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R19
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R19
 U 1 1 5DDA7C42
 P 10750 5050
 F 0 "R19" V 10750 5050 50  0000 C CNN
@@ -981,7 +981,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 5000 11400 5000
 $Comp
-L GridsNanoV3-rescue:R-Device R23
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R23
 U 1 1 5DDA7C4F
 P 11600 4650
 F 0 "R23" V 11600 4650 50  0000 C CNN
@@ -999,7 +999,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 4400 11450 4400
 $Comp
-L GridsNanoV3-rescue:C-Device C8
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C8
 U 1 1 5DDA7C59
 P 11600 4400
 F 0 "C8" V 11348 4400 50  0000 C CNN
@@ -1030,7 +1030,7 @@ ref_5
 Wire Wire Line
 	11400 6800 11400 6700
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR017
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR017
 U 1 1 5DDA7C6A
 P 11400 6800
 F 0 "#PWR017" H 11400 6550 50  0001 C CNN
@@ -1045,7 +1045,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 6150 10500 6150
 $Comp
-L GridsNanoV3-rescue:R-Device R20
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R20
 U 1 1 5DDA7C72
 P 10750 6150
 F 0 "R20" V 10750 6150 50  0000 C CNN
@@ -1056,7 +1056,7 @@ F 3 "~" H 10750 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R21
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R21
 U 1 1 5DDA7C78
 P 10750 6350
 F 0 "R21" V 10750 6350 50  0000 C CNN
@@ -1067,7 +1067,7 @@ F 3 "~" H 10750 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R22
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R22
 U 1 1 5DDA7C7E
 P 10750 6550
 F 0 "R22" V 10750 6550 50  0000 C CNN
@@ -1091,7 +1091,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 6500 11400 6500
 $Comp
-L GridsNanoV3-rescue:R-Device R24
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R24
 U 1 1 5DDA7C8B
 P 11600 6150
 F 0 "R24" V 11600 6150 50  0000 C CNN
@@ -1109,7 +1109,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 5900 11450 5900
 $Comp
-L GridsNanoV3-rescue:C-Device C9
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C9
 U 1 1 5DDA7C95
 P 11600 5900
 F 0 "C9" V 11348 5900 50  0000 C CNN
@@ -1140,7 +1140,7 @@ Wire Wire Line
 Text GLabel 10450 6550 0    50   BiDi ~ 0
 ref_5
 $Comp
-L GridsNanoV3-rescue:C-Device C10
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C10
 U 1 1 5DDA7CA6
 P 13250 6550
 F 0 "C10" H 13100 6650 50  0000 L CNN
@@ -1192,7 +1192,7 @@ IN_CLOCK
 Wire Wire Line
 	16300 1750 16200 1750
 $Comp
-L GridsNanoV3-rescue:R-Device R43
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R43
 U 1 1 5E677C32
 P 16450 1750
 F 0 "R43" V 16243 1750 50  0000 C CNN
@@ -1203,7 +1203,7 @@ F 3 "~" H 16450 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R44
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R44
 U 1 1 5E677C38
 P 16850 1900
 F 0 "R44" V 16643 1900 50  0000 C CNN
@@ -1216,7 +1216,7 @@ $EndComp
 Wire Wire Line
 	16850 2050 16850 2200
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0124
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0124
 U 1 1 5E677C40
 P 16850 2200
 F 0 "#PWR0124" H 16850 1950 50  0001 C CNN
@@ -1227,7 +1227,7 @@ F 3 "" H 16850 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:2N3904-Transistor_BJT Q2
+L NanoGris-rescue:2N3904-Transistor_BJT-GridsNanoV3-rescue Q2
 U 1 1 5E677C46
 P 17250 1750
 F 0 "Q2" H 17440 1796 50  0000 L CNN
@@ -1245,7 +1245,7 @@ Connection ~ 16850 1750
 Wire Wire Line
 	17350 1950 17350 2100
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0125
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0125
 U 1 1 5E677C4F
 P 17350 2100
 F 0 "#PWR0125" H 17350 1850 50  0001 C CNN
@@ -1256,7 +1256,7 @@ F 3 "" H 17350 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R45
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R45
 U 1 1 5E677C55
 P 17350 1350
 F 0 "R45" V 17143 1350 50  0000 C CNN
@@ -1271,7 +1271,7 @@ Wire Wire Line
 Wire Wire Line
 	17350 1200 17350 1100
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0126
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0126
 U 1 1 5E677C5D
 P 17350 1100
 F 0 "#PWR0126" H 17350 950 50  0001 C CNN
@@ -1287,7 +1287,7 @@ Connection ~ 17350 1550
 Text GLabel 17700 1550 2    50   BiDi ~ 0
 IN_RESET
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0127
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0127
 U 1 1 5E593E3E
 P 14350 1100
 F 0 "#PWR0127" H 14350 950 50  0001 C CNN
@@ -1302,7 +1302,7 @@ Wire Wire Line
 Wire Wire Line
 	14350 1550 14350 1500
 $Comp
-L GridsNanoV3-rescue:R-Device R42
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R42
 U 1 1 5E54CCC8
 P 14350 1350
 F 0 "R42" V 14143 1350 50  0000 C CNN
@@ -1313,7 +1313,7 @@ F 3 "~" H 14350 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0128
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0128
 U 1 1 5E5349BB
 P 14350 2100
 F 0 "#PWR0128" H 14350 1850 50  0001 C CNN
@@ -1327,7 +1327,7 @@ Wire Wire Line
 	14350 1950 14350 2100
 Connection ~ 14350 1550
 $Comp
-L GridsNanoV3-rescue:2N3904-Transistor_BJT Q1
+L NanoGris-rescue:2N3904-Transistor_BJT-GridsNanoV3-rescue Q1
 U 1 1 5E51C3E4
 P 14250 1750
 F 0 "Q1" H 14440 1796 50  0000 L CNN
@@ -1338,7 +1338,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 14250 1750 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0129
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0129
 U 1 1 5E4D4716
 P 13850 2200
 F 0 "#PWR0129" H 13850 1950 50  0001 C CNN
@@ -1356,7 +1356,7 @@ Wire Wire Line
 	13600 1750 13850 1750
 Connection ~ 13850 1750
 $Comp
-L GridsNanoV3-rescue:R-Device R41
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R41
 U 1 1 5E48F1EF
 P 13850 1900
 F 0 "R41" V 13643 1900 50  0000 C CNN
@@ -1367,7 +1367,7 @@ F 3 "~" H 13850 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R40
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R40
 U 1 1 5E478D97
 P 13450 1750
 F 0 "R40" V 13243 1750 50  0000 C CNN
@@ -1386,7 +1386,7 @@ ref_5
 Wire Wire Line
 	7500 2650 7500 2750
 $Comp
-L GridsNanoV3-rescue:-12V-power #PWR0130
+L NanoGris-rescue:-12V-power-GridsNanoV3-rescue #PWR0130
 U 1 1 5E3AAC6F
 P 7500 2650
 F 0 "#PWR0130" H 7500 2750 50  0001 C CNN
@@ -1397,7 +1397,7 @@ F 3 "" H 7500 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R31
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R31
 U 1 1 5E3A8CE6
 P 7500 2900
 F 0 "R31" H 7570 2946 50  0000 L CNN
@@ -1416,7 +1416,7 @@ Connection ~ 7500 3050
 Wire Wire Line
 	7500 3200 7500 3050
 $Comp
-L GridsNanoV3-rescue:CP-Device C15
+L NanoGris-rescue:CP-Device-GridsNanoV3-rescue C15
 U 1 1 5E378854
 P 7950 3350
 F 0 "C15" H 8065 3396 50  0000 L CNN
@@ -1427,7 +1427,7 @@ F 3 "~" H 7950 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0131
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0131
 U 1 1 5E362FAB
 P 7950 3700
 F 0 "#PWR0131" H 7950 3450 50  0001 C CNN
@@ -1440,7 +1440,7 @@ $EndComp
 Wire Wire Line
 	7950 3500 7950 3700
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0132
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0132
 U 1 1 5E34E15B
 P 7500 3700
 F 0 "#PWR0132" H 7500 3450 50  0001 C CNN
@@ -1453,7 +1453,7 @@ $EndComp
 Wire Wire Line
 	7500 3500 7500 3700
 $Comp
-L GridsNanoV3-rescue:LM4040LP-5-Reference_Voltage U5
+L NanoGris-rescue:LM4040LP-5-Reference_Voltage-GridsNanoV3-rescue U5
 U 1 1 5E34B196
 P 7500 3350
 F 0 "U5" V 7454 3428 50  0000 L CNN
@@ -1504,7 +1504,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 1900 11000 1900
 $Comp
-L GridsNanoV3-rescue:R-Device R39
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R39
 U 1 1 5DC5A972
 P 11450 3600
 F 0 "R39" V 11243 3600 50  0000 C CNN
@@ -1515,7 +1515,7 @@ F 3 "~" H 11450 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R38
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R38
 U 1 1 5DC5A95D
 P 11450 3250
 F 0 "R38" V 11243 3250 50  0000 C CNN
@@ -1526,7 +1526,7 @@ F 3 "~" H 11450 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0133
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0133
 U 1 1 5DC7E694
 P 6800 2800
 F 0 "#PWR0133" H 6800 2650 50  0001 C CNN
@@ -1537,7 +1537,7 @@ F 3 "" H 6800 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+12V-power #PWR0134
+L NanoGris-rescue:+12V-power-GridsNanoV3-rescue #PWR0134
 U 1 1 5DC7E2E5
 P 5450 2800
 F 0 "#PWR0134" H 5450 2650 50  0001 C CNN
@@ -1548,7 +1548,7 @@ F 3 "" H 5450 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0135
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0135
 U 1 1 5DC7DF5E
 P 6100 3700
 F 0 "#PWR0135" H 6100 3450 50  0001 C CNN
@@ -1568,7 +1568,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 3500 6800 3500
 $Comp
-L GridsNanoV3-rescue:C-Device C12
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C12
 U 1 1 5DC772C7
 P 6400 3500
 F 0 "C12" V 6145 3500 50  0000 C CNN
@@ -1588,7 +1588,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3250 6100 3500
 $Comp
-L GridsNanoV3-rescue:CP-Device C11
+L NanoGris-rescue:CP-Device-GridsNanoV3-rescue C11
 U 1 1 5DC6DF95
 P 5700 3500
 F 0 "C11" V 5955 3500 50  0000 C CNN
@@ -1608,7 +1608,7 @@ Connection ~ 5450 2950
 Wire Wire Line
 	5450 2950 5450 2800
 $Comp
-L GridsNanoV3-rescue:L7805-Regulator_Linear U4
+L NanoGris-rescue:L7805-Regulator_Linear-GridsNanoV3-rescue U4
 U 1 1 5DC68431
 P 6100 2950
 F 0 "U4" H 6100 3192 50  0000 C CNN
@@ -1619,7 +1619,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:-12V-power #PWR0136
+L NanoGris-rescue:-12V-power-GridsNanoV3-rescue #PWR0136
 U 1 1 5DC67BD0
 P 8200 2150
 F 0 "#PWR0136" H 8200 2250 50  0001 C CNN
@@ -1630,7 +1630,7 @@ F 3 "" H 8200 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+12V-power #PWR0137
+L NanoGris-rescue:+12V-power-GridsNanoV3-rescue #PWR0137
 U 1 1 5DC67975
 P 8200 1050
 F 0 "#PWR0137" H 8200 900 50  0001 C CNN
@@ -1641,7 +1641,7 @@ F 3 "" H 8200 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0138
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0138
 U 1 1 5DC650AF
 P 8200 1600
 F 0 "#PWR0138" H 8200 1350 50  0001 C CNN
@@ -1675,7 +1675,7 @@ Connection ~ 7750 1600
 Wire Wire Line
 	7750 1600 7750 1700
 $Comp
-L GridsNanoV3-rescue:CP-Device C14
+L NanoGris-rescue:CP-Device-GridsNanoV3-rescue C14
 U 1 1 5DC3D618
 P 7750 1850
 F 0 "C14" H 7868 1896 50  0000 L CNN
@@ -1689,7 +1689,7 @@ Connection ~ 6350 2150
 Wire Wire Line
 	6650 2150 6350 2150
 $Comp
-L GridsNanoV3-rescue:R-Device R30
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R30
 U 1 1 5DC3D611
 P 7400 2150
 F 0 "R30" V 7607 2150 50  0000 C CNN
@@ -1705,7 +1705,7 @@ Connection ~ 7750 2150
 Wire Wire Line
 	7750 2150 7550 2150
 $Comp
-L GridsNanoV3-rescue:D-Device D6
+L NanoGris-rescue:D-Device-GridsNanoV3-rescue D6
 U 1 1 5DC3D609
 P 6800 2150
 F 0 "D6" H 6800 1934 50  0000 C CNN
@@ -1718,7 +1718,7 @@ $EndComp
 Wire Wire Line
 	7750 1050 7750 1150
 $Comp
-L GridsNanoV3-rescue:CP-Device C13
+L NanoGris-rescue:CP-Device-GridsNanoV3-rescue C13
 U 1 1 5DC3A932
 P 7750 1300
 F 0 "C13" H 7868 1346 50  0000 L CNN
@@ -1734,7 +1734,7 @@ Connection ~ 7750 1050
 Wire Wire Line
 	7450 1050 7750 1050
 $Comp
-L GridsNanoV3-rescue:R-Device R29
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R29
 U 1 1 5DC370A9
 P 7300 1050
 F 0 "R29" V 7093 1050 50  0000 C CNN
@@ -1749,7 +1749,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 1050 6550 1050
 $Comp
-L GridsNanoV3-rescue:D-Device D5
+L NanoGris-rescue:D-Device-GridsNanoV3-rescue D5
 U 1 1 5DC322CB
 P 6700 1050
 F 0 "D5" H 6700 834 50  0000 C CNN
@@ -1760,7 +1760,7 @@ F 3 "~" H 6700 1050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0139
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0139
 U 1 1 5DC31F59
 P 5200 1750
 F 0 "#PWR0139" H 5200 1500 50  0001 C CNN
@@ -1808,7 +1808,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 1400 5400 1400
 $Comp
-L GridsNanoV3-rescue:Conn_02x05_Odd_Even-Connector_Generic J12
+L NanoGris-rescue:Conn_02x05_Odd_Even-Connector_Generic-GridsNanoV3-rescue J12
 U 1 1 5DC2A3D5
 P 5800 1600
 F 0 "J12" H 5850 2017 50  0000 C CNN
@@ -1835,7 +1835,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 2950 11050 2950
 $Comp
-L GridsNanoV3-rescue:R-Device R37
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R37
 U 1 1 5DC2184D
 P 11450 2950
 F 0 "R37" V 11243 2950 50  0000 C CNN
@@ -1848,7 +1848,7 @@ $EndComp
 Wire Wire Line
 	11300 2600 11100 2600
 $Comp
-L GridsNanoV3-rescue:R-Device R36
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R36
 U 1 1 5DC210BD
 P 11450 2600
 F 0 "R36" V 11243 2600 50  0000 C CNN
@@ -1859,7 +1859,7 @@ F 3 "~" H 11450 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R35
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R35
 U 1 1 5DC209D9
 P 11450 2250
 F 0 "R35" V 11243 2250 50  0000 C CNN
@@ -1870,7 +1870,7 @@ F 3 "~" H 11450 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R34
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R34
 U 1 1 5DC204FC
 P 11450 1950
 F 0 "R34" V 11243 1950 50  0000 C CNN
@@ -1881,7 +1881,7 @@ F 3 "~" H 11450 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R33
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R33
 U 1 1 5DC201D4
 P 11450 1600
 F 0 "R33" V 11243 1600 50  0000 C CNN
@@ -1892,7 +1892,7 @@ F 3 "~" H 11450 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R32
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R32
 U 1 1 5DC1D53A
 P 11450 1300
 F 0 "R32" V 11243 1300 50  0000 C CNN
@@ -1907,7 +1907,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 1050 10200 1050
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0140
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0140
 U 1 1 5DC1D6E5
 P 8900 1050
 F 0 "#PWR0140" H 8900 900 50  0001 C CNN
@@ -1918,7 +1918,7 @@ F 3 "" H 8900 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0141
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0141
 U 1 1 5DC1D484
 P 9650 2650
 F 0 "#PWR0141" H 9650 2400 50  0001 C CNN
@@ -1957,7 +1957,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 1500 9550 1500
 $Comp
-L GridsNanoV3-rescue:74HC595-74xx U6
+L NanoGris-rescue:74HC595-74xx-GridsNanoV3-rescue U6
 U 1 1 5DC1C0E5
 P 10200 1700
 F 0 "U6" H 10200 2481 50  0000 C CNN
@@ -1968,7 +1968,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 10200 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:C-Device C16
+L NanoGris-rescue:C-Device-GridsNanoV3-rescue C16
 U 1 1 5E3CDD9F
 P 8900 2000
 F 0 "C16" H 8750 2100 50  0000 L CNN
@@ -1989,7 +1989,7 @@ Connection ~ 9650 2250
 Wire Wire Line
 	9650 2250 9650 2450
 $Comp
-L GridsNanoV3-rescue:R-Device R25
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R25
 U 1 1 5E4F93F8
 P 1600 2100
 AR Path="/5E4F93F8" Ref="R25"  Part="1" 
@@ -2003,7 +2003,7 @@ F 3 "~" H 1600 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R28
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R28
 U 1 1 5E4F93FE
 P 1600 3150
 AR Path="/5E4F93FE" Ref="R28"  Part="1" 
@@ -2017,7 +2017,7 @@ F 3 "~" H 1600 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R27
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R27
 U 1 1 5E4F9404
 P 1600 2800
 AR Path="/5E4F9404" Ref="R27"  Part="1" 
@@ -2031,7 +2031,7 @@ F 3 "~" H 1600 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:R-Device R26
+L NanoGris-rescue:R-Device-GridsNanoV3-rescue R26
 U 1 1 5E4F940A
 P 1600 2450
 AR Path="/5E4F940A" Ref="R26"  Part="1" 
@@ -2067,7 +2067,7 @@ J_CLK
 Text GLabel 16200 1750 0    50   BiDi ~ 0
 J_RESET
 $Comp
-L GridsNanoV3-rescue:MountingHole-Mechanical H1
+L NanoGris-rescue:MountingHole-Mechanical-GridsNanoV3-rescue H1
 U 1 1 5F1DD187
 P 16950 5250
 F 0 "H1" H 17050 5296 50  0000 L CNN
@@ -2086,7 +2086,7 @@ Wire Wire Line
 Wire Wire Line
 	15350 5900 15250 5900
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0157
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0157
 U 1 1 5F1B969E
 P 15000 6000
 F 0 "#PWR0157" H 15000 5850 50  0001 C CNN
@@ -2097,7 +2097,7 @@ F 3 "" H 15000 6000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0156
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0156
 U 1 1 5F1B9698
 P 15250 6000
 F 0 "#PWR0156" H 15250 5750 50  0001 C CNN
@@ -2116,7 +2116,7 @@ Wire Wire Line
 Wire Wire Line
 	15500 3950 15400 3950
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0151
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0151
 U 1 1 5F116E1E
 P 15150 4050
 F 0 "#PWR0151" H 15150 3900 50  0001 C CNN
@@ -2127,7 +2127,7 @@ F 3 "" H 15150 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0150
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0150
 U 1 1 5F0D8616
 P 15400 4050
 F 0 "#PWR0150" H 15400 3800 50  0001 C CNN
@@ -2158,7 +2158,7 @@ LED_CLOCK
 Text GLabel 15350 5000 0    50   BiDi ~ 0
 CH1
 $Comp
-L GridsNanoV3-rescue:Conn_01x10-Connector_Generic J7
+L NanoGris-rescue:Conn_01x10-Connector_Generic-GridsNanoV3-rescue J7
 U 1 1 5EDE1ED6
 P 15550 5400
 F 0 "J7" H 15630 5392 50  0000 L CNN
@@ -2185,7 +2185,7 @@ CH_CLOCK
 Text GLabel 3200 15450 0    50   BiDi ~ 0
 CH_RND
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH3
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH3
 U 1 1 5DCF722B
 P 3400 13100
 F 0 "CH3" H 3220 13083 50  0000 R CNN
@@ -2198,7 +2198,7 @@ $EndComp
 Wire Wire Line
 	3200 13200 3000 13200
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0149
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0149
 U 1 1 5DCF7224
 P 3000 13200
 F 0 "#PWR0149" H 3000 12950 50  0001 C CNN
@@ -2209,7 +2209,7 @@ F 3 "" H 3000 13200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH1_AC1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH1_AC1
 U 1 1 5DCF721E
 P 3400 13550
 F 0 "CH1_AC1" H 3220 13533 50  0000 R CNN
@@ -2222,7 +2222,7 @@ $EndComp
 Wire Wire Line
 	3200 13650 3000 13650
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0148
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0148
 U 1 1 5DCF7217
 P 3000 13650
 F 0 "#PWR0148" H 3000 13400 50  0001 C CNN
@@ -2233,7 +2233,7 @@ F 3 "" H 3000 13650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH2_AC1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH2_AC1
 U 1 1 5DCF7211
 P 3400 14050
 F 0 "CH2_AC1" H 3220 14033 50  0000 R CNN
@@ -2246,7 +2246,7 @@ $EndComp
 Wire Wire Line
 	3200 14150 3000 14150
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0147
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0147
 U 1 1 5DCF720A
 P 3000 14150
 F 0 "#PWR0147" H 3000 13900 50  0001 C CNN
@@ -2257,7 +2257,7 @@ F 3 "" H 3000 14150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH3_AC1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH3_AC1
 U 1 1 5DCF7204
 P 3400 14500
 F 0 "CH3_AC1" H 3220 14483 50  0000 R CNN
@@ -2270,7 +2270,7 @@ $EndComp
 Wire Wire Line
 	3200 14600 3000 14600
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0146
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0146
 U 1 1 5DCF71FD
 P 3000 14600
 F 0 "#PWR0146" H 3000 14350 50  0001 C CNN
@@ -2281,7 +2281,7 @@ F 3 "" H 3000 14600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CLK1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CLK1
 U 1 1 5DCF71F7
 P 3400 15000
 F 0 "CLK1" H 3220 14983 50  0000 R CNN
@@ -2292,7 +2292,7 @@ F 3 "~" H 3400 15000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0145
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0145
 U 1 1 5DCF71F1
 P 3000 15550
 F 0 "#PWR0145" H 3000 15300 50  0001 C CNN
@@ -2305,7 +2305,7 @@ $EndComp
 Wire Wire Line
 	3200 15550 3000 15550
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector RND1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue RND1
 U 1 1 5DCF71EA
 P 3400 15450
 F 0 "RND1" H 3220 15433 50  0000 R CNN
@@ -2316,7 +2316,7 @@ F 3 "~" H 3400 15450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0144
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0144
 U 1 1 5DCF71E4
 P 3000 15100
 F 0 "#PWR0144" H 3000 14850 50  0001 C CNN
@@ -2329,7 +2329,7 @@ $EndComp
 Wire Wire Line
 	3200 15100 3000 15100
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0143
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0143
 U 1 1 5DCF71DD
 P 3000 12600
 F 0 "#PWR0143" H 3000 12350 50  0001 C CNN
@@ -2342,7 +2342,7 @@ $EndComp
 Wire Wire Line
 	3200 12600 3000 12600
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH2
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH2
 U 1 1 5DCF71D6
 P 3400 12500
 F 0 "CH2" H 3220 12483 50  0000 R CNN
@@ -2353,7 +2353,7 @@ F 3 "~" H 3400 12500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0142
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0142
 U 1 1 5DCF71D0
 P 3000 12050
 F 0 "#PWR0142" H 3000 11800 50  0001 C CNN
@@ -2366,7 +2366,7 @@ $EndComp
 Wire Wire Line
 	3200 12050 3000 12050
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH1
 U 1 1 5DCF71C9
 P 3400 11950
 F 0 "CH1" H 3220 11933 50  0000 R CNN
@@ -2387,7 +2387,7 @@ LED_CH2
 Text GLabel 15500 3450 0    50   BiDi ~ 0
 LED_CH3
 $Comp
-L GridsNanoV3-rescue:Conn_01x10-Connector_Generic J13
+L NanoGris-rescue:Conn_01x10-Connector_Generic-GridsNanoV3-rescue J13
 U 1 1 5E67FC26
 P 15700 3450
 F 0 "J13" H 15780 3442 50  0000 L CNN
@@ -2422,7 +2422,7 @@ J_Y
 Text GLabel 17100 3200 0    50   Input ~ 0
 P_Y
 $Comp
-L GridsNanoV3-rescue:Conn_01x12-Connector_Generic J10
+L NanoGris-rescue:Conn_01x12-Connector_Generic-GridsNanoV3-rescue J10
 U 1 1 5DFE3A6D
 P 17300 3500
 F 0 "J10" H 17380 3492 50  0000 L CNN
@@ -2480,7 +2480,7 @@ J_X
 Text GLabel 8900 13850 2    50   BiDi ~ 0
 P_TEMPO
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0123
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0123
 U 1 1 5DCF7387
 P 8950 15650
 AR Path="/5DCF7387" Ref="#PWR0123"  Part="1" 
@@ -2494,7 +2494,7 @@ F 3 "" H 8950 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector RESET1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue RESET1
 U 1 1 5DCF7381
 P 8750 15400
 AR Path="/5DCF7381" Ref="RESET1"  Part="1" 
@@ -2512,7 +2512,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 15400 9050 15400
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0122
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0122
 U 1 1 5E9A98A5
 P 8950 14950
 AR Path="/5E9A98A5" Ref="#PWR0122"  Part="1" 
@@ -2526,7 +2526,7 @@ F 3 "" H 8950 14950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CLOCK1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CLOCK1
 U 1 1 5DCF7373
 P 8750 14700
 AR Path="/5DCF7373" Ref="CLOCK1"  Part="1" 
@@ -2544,7 +2544,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 14700 9050 14700
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0120
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0120
 U 1 1 5E9A98A2
 P 8750 13550
 AR Path="/5E9A98A2" Ref="#PWR0120"  Part="1" 
@@ -2560,7 +2560,7 @@ $EndComp
 Wire Wire Line
 	8750 13700 8750 13550
 $Comp
-L GridsNanoV3-rescue:R_POT-Device P_TEMPO1
+L NanoGris-rescue:R_POT-Device-GridsNanoV3-rescue P_TEMPO1
 U 1 1 5E9A98A1
 P 8750 13850
 AR Path="/5E9A98A1" Ref="P_TEMPO1"  Part="1" 
@@ -2574,7 +2574,7 @@ F 3 "~" H 8750 13850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH2_FILL1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH2_FILL1
 U 1 1 5E9A98A0
 P 6250 13550
 AR Path="/5E9A98A0" Ref="CH2_FILL1"  Part="1" 
@@ -2590,7 +2590,7 @@ $EndComp
 Wire Wire Line
 	6450 13650 6450 13800
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0119
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0119
 U 1 1 5DCF733A
 P 6450 13800
 AR Path="/5DCF733A" Ref="#PWR0119"  Part="1" 
@@ -2608,7 +2608,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 12850 6450 12850
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0118
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0118
 U 1 1 5DCF7332
 P 7400 13200
 AR Path="/5DCF7332" Ref="#PWR0118"  Part="1" 
@@ -2622,7 +2622,7 @@ F 3 "" H 7400 13200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0117
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0117
 U 1 1 5DCF732C
 P 7400 12600
 AR Path="/5DCF732C" Ref="#PWR0117"  Part="1" 
@@ -2640,7 +2640,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 12750 7400 12600
 $Comp
-L GridsNanoV3-rescue:R_POT-Device P_CH2
+L NanoGris-rescue:R_POT-Device-GridsNanoV3-rescue P_CH2
 U 1 1 5DCF7324
 P 6200 12850
 AR Path="/5DCF7324" Ref="P_CH2"  Part="1" 
@@ -2654,7 +2654,7 @@ F 3 "~" H 6200 12850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH1_FILL1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH1_FILL1
 U 1 1 5DCF731E
 P 5000 13550
 AR Path="/5DCF731E" Ref="CH1_FILL1"  Part="1" 
@@ -2670,7 +2670,7 @@ $EndComp
 Wire Wire Line
 	5200 13650 5200 13800
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0116
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0116
 U 1 1 5DCF7317
 P 5200 13800
 AR Path="/5DCF7317" Ref="#PWR0116"  Part="1" 
@@ -2688,7 +2688,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 12850 5300 12850
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0115
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0115
 U 1 1 5DCF730F
 P 6200 13150
 AR Path="/5DCF730F" Ref="#PWR0115"  Part="1" 
@@ -2702,7 +2702,7 @@ F 3 "" H 6200 13150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0114
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0114
 U 1 1 5DCF7309
 P 6200 12550
 AR Path="/5DCF7309" Ref="#PWR0114"  Part="1" 
@@ -2720,7 +2720,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 12700 6200 12550
 $Comp
-L GridsNanoV3-rescue:R_POT-Device P_CH1
+L NanoGris-rescue:R_POT-Device-GridsNanoV3-rescue P_CH1
 U 1 1 5DCF7301
 P 5050 12850
 AR Path="/5DCF7301" Ref="P_CH1"  Part="1" 
@@ -2734,7 +2734,7 @@ F 3 "~" H 5050 12850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector X1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue X1
 U 1 1 5E9A9896
 P 6250 15350
 AR Path="/5E9A9896" Ref="X1"  Part="1" 
@@ -2750,7 +2750,7 @@ $EndComp
 Wire Wire Line
 	6450 15450 6450 15600
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0113
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0113
 U 1 1 5DCF72F4
 P 6450 15600
 AR Path="/5DCF72F4" Ref="#PWR0113"  Part="1" 
@@ -2768,7 +2768,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 14600 6550 14600
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0112
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0112
 U 1 1 5DCF72EC
 P 6300 14900
 AR Path="/5DCF72EC" Ref="#PWR0112"  Part="1" 
@@ -2782,7 +2782,7 @@ F 3 "" H 6300 14900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0111
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0111
 U 1 1 5E9A9893
 P 6300 14300
 AR Path="/5E9A9893" Ref="#PWR0111"  Part="1" 
@@ -2800,7 +2800,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 14450 6300 14300
 $Comp
-L GridsNanoV3-rescue:R_POT-Device P_X1
+L NanoGris-rescue:R_POT-Device-GridsNanoV3-rescue P_X1
 U 1 1 5DCF72DE
 P 6300 14600
 AR Path="/5DCF72DE" Ref="P_X1"  Part="1" 
@@ -2814,7 +2814,7 @@ F 3 "~" H 6300 14600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector CH3_FILL1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue CH3_FILL1
 U 1 1 5DCF72D8
 P 7400 13550
 AR Path="/5DCF72D8" Ref="CH3_FILL1"  Part="1" 
@@ -2830,7 +2830,7 @@ $EndComp
 Wire Wire Line
 	7600 13650 7600 13800
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0110
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0110
 U 1 1 5DCF72D1
 P 7600 13800
 AR Path="/5DCF72D1" Ref="#PWR0110"  Part="1" 
@@ -2848,7 +2848,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 12900 7650 12900
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0109
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0109
 U 1 1 5E9A988F
 P 5050 13150
 AR Path="/5E9A988F" Ref="#PWR0109"  Part="1" 
@@ -2862,7 +2862,7 @@ F 3 "" H 5050 13150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0108
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0108
 U 1 1 5E9A988E
 P 5050 12550
 AR Path="/5E9A988E" Ref="#PWR0108"  Part="1" 
@@ -2880,7 +2880,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 12700 5050 12550
 $Comp
-L GridsNanoV3-rescue:R_POT-Device P_CH3
+L NanoGris-rescue:R_POT-Device-GridsNanoV3-rescue P_CH3
 U 1 1 5E9A988D
 P 7400 12900
 AR Path="/5E9A988D" Ref="P_CH3"  Part="1" 
@@ -2894,7 +2894,7 @@ F 3 "~" H 7400 12900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector RND2
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue RND2
 U 1 1 5E9A988C
 P 5000 15350
 AR Path="/5E9A988C" Ref="RND2"  Part="1" 
@@ -2910,7 +2910,7 @@ $EndComp
 Wire Wire Line
 	5200 15450 5200 15600
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0107
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0107
 U 1 1 5E9A988B
 P 5200 15600
 AR Path="/5E9A988B" Ref="#PWR0107"  Part="1" 
@@ -2928,7 +2928,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 14600 5250 14600
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0106
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0106
 U 1 1 5E9A988A
 P 5000 14900
 AR Path="/5E9A988A" Ref="#PWR0106"  Part="1" 
@@ -2942,7 +2942,7 @@ F 3 "" H 5000 14900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0105
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0105
 U 1 1 5E9A9889
 P 5000 14300
 AR Path="/5E9A9889" Ref="#PWR0105"  Part="1" 
@@ -2960,7 +2960,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 14450 5000 14300
 $Comp
-L GridsNanoV3-rescue:R_POT-Device P_RND1
+L NanoGris-rescue:R_POT-Device-GridsNanoV3-rescue P_RND1
 U 1 1 5E9A9888
 P 5000 14600
 AR Path="/5E9A9888" Ref="P_RND1"  Part="1" 
@@ -2974,7 +2974,7 @@ F 3 "~" H 5000 14600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:AudioJack2-Connector Y1
+L NanoGris-rescue:AudioJack2-Connector-GridsNanoV3-rescue Y1
 U 1 1 5E9A9887
 P 7500 15350
 AR Path="/5E9A9887" Ref="Y1"  Part="1" 
@@ -2990,7 +2990,7 @@ $EndComp
 Wire Wire Line
 	7700 15450 7700 15600
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0104
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0104
 U 1 1 5DCF728B
 P 7700 15600
 AR Path="/5DCF728B" Ref="#PWR0104"  Part="1" 
@@ -3008,7 +3008,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 14600 7750 14600
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0103
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0103
 U 1 1 5DCF7283
 P 7500 14900
 AR Path="/5DCF7283" Ref="#PWR0103"  Part="1" 
@@ -3022,7 +3022,7 @@ F 3 "" H 7500 14900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0102
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0102
 U 1 1 5E9A9884
 P 7500 14300
 AR Path="/5E9A9884" Ref="#PWR0102"  Part="1" 
@@ -3040,7 +3040,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 14450 7500 14300
 $Comp
-L GridsNanoV3-rescue:R_POT-Device P_Y1
+L NanoGris-rescue:R_POT-Device-GridsNanoV3-rescue P_Y1
 U 1 1 5DCF7275
 P 7500 14600
 AR Path="/5DCF7275" Ref="P_Y1"  Part="1" 
@@ -3064,7 +3064,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 15450 1550 15450
 $Comp
-L GridsNanoV3-rescue:LED-Device D4
+L NanoGris-rescue:LED-Device-GridsNanoV3-rescue D4
 U 1 1 5DCF7258
 P 1700 15450
 AR Path="/5DCF7258" Ref="D4"  Part="1" 
@@ -3080,7 +3080,7 @@ $EndComp
 Wire Wire Line
 	1850 15450 2050 15450
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0101
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0101
 U 1 1 5E9A9881
 P 2050 15650
 AR Path="/5E9A9881" Ref="#PWR0101"  Part="1" 
@@ -3094,7 +3094,7 @@ F 3 "" H 2050 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:LED-Device D3
+L NanoGris-rescue:LED-Device-GridsNanoV3-rescue D3
 U 1 1 5E9A9880
 P 1700 15100
 AR Path="/5E9A9880" Ref="D3"  Part="1" 
@@ -3108,7 +3108,7 @@ F 3 "~" H 1700 15100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GridsNanoV3-rescue:LED-Device D2
+L NanoGris-rescue:LED-Device-GridsNanoV3-rescue D2
 U 1 1 5E9A987F
 P 1700 14750
 AR Path="/5E9A987F" Ref="D2"  Part="1" 
@@ -3142,7 +3142,7 @@ $EndComp
 Wire Wire Line
 	1400 14400 1550 14400
 $Comp
-L GridsNanoV3-rescue:MountingHole-Mechanical H2
+L NanoGris-rescue:MountingHole-Mechanical-GridsNanoV3-rescue H2
 U 1 1 5F1F1794
 P 15400 14000
 F 0 "H2" H 15500 14046 50  0000 L CNN
@@ -3153,7 +3153,7 @@ F 3 "~" H 15400 14000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:Conn_01x03-Connector_Generic J16
+L NanoGris-rescue:Conn_01x03-Connector_Generic-GridsNanoV3-rescue J16
 U 1 1 5F2710EF
 P 20750 1550
 F 0 "J16" H 20830 1592 50  0000 L CNN
@@ -3166,7 +3166,7 @@ $EndComp
 Text GLabel 20550 1550 0    50   BiDi ~ 0
 IN_MIDI
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0158
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0158
 U 1 1 5F295051
 P 20550 1750
 F 0 "#PWR0158" H 20550 1500 50  0001 C CNN
@@ -3177,7 +3177,7 @@ F 3 "" H 20550 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0159
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0159
 U 1 1 5F295057
 P 20550 1250
 F 0 "#PWR0159" H 20550 1100 50  0001 C CNN
@@ -3192,7 +3192,7 @@ Wire Wire Line
 Wire Wire Line
 	20550 1250 20550 1450
 $Comp
-L GridsNanoV3-rescue:Conn_01x10-Connector_Generic J14
+L NanoGris-rescue:Conn_01x10-Connector_Generic-GridsNanoV3-rescue J14
 U 1 1 5E8B656A
 P 15600 12250
 F 0 "J14" H 15680 12242 50  0000 L CNN
@@ -3217,7 +3217,7 @@ J_RESET
 Text GLabel 15400 12350 0    50   BiDi ~ 0
 P_TEMPO
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0154
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0154
 U 1 1 5F1986B8
 P 15300 12850
 F 0 "#PWR0154" H 15300 12600 50  0001 C CNN
@@ -3228,7 +3228,7 @@ F 3 "" H 15300 12850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0155
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0155
 U 1 1 5F1986BE
 P 15050 12850
 F 0 "#PWR0155" H 15050 12700 50  0001 C CNN
@@ -3247,7 +3247,7 @@ Wire Wire Line
 Wire Wire Line
 	15050 12650 15400 12650
 $Comp
-L GridsNanoV3-rescue:Conn_01x10-Connector_Generic J15
+L NanoGris-rescue:Conn_01x10-Connector_Generic-GridsNanoV3-rescue J15
 U 1 1 5EE8B478
 P 17350 12300
 F 0 "J15" H 17430 12292 50  0000 L CNN
@@ -3274,7 +3274,7 @@ CH_CLOCK
 Text GLabel 17150 12500 0    50   BiDi ~ 0
 CH_RND
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0152
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0152
 U 1 1 5F177FA2
 P 17050 12900
 F 0 "#PWR0152" H 17050 12650 50  0001 C CNN
@@ -3285,7 +3285,7 @@ F 3 "" H 17050 12900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:+5V-power #PWR0153
+L NanoGris-rescue:+5V-power-GridsNanoV3-rescue #PWR0153
 U 1 1 5F177FA8
 P 16800 12900
 F 0 "#PWR0153" H 16800 12750 50  0001 C CNN
@@ -3304,7 +3304,7 @@ Wire Wire Line
 Wire Wire Line
 	16800 12700 17150 12700
 $Comp
-L GridsNanoV3-rescue:Conn_01x12-Connector_Generic J11
+L NanoGris-rescue:Conn_01x12-Connector_Generic-GridsNanoV3-rescue J11
 U 1 1 5E046254
 P 18800 12400
 F 0 "J11" H 18880 12392 50  0000 L CNN
@@ -3339,7 +3339,7 @@ P_CH1
 Text GLabel 18600 12800 0    50   Input ~ 0
 J_CH1
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR08
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR08
 U 1 1 5E9A046C
 P 16250 6650
 F 0 "#PWR08" H 16250 6400 50  0001 C CNN
@@ -3357,7 +3357,7 @@ NoConn ~ 2550 2900
 Text GLabel 15500 3750 0    50   BiDi ~ 0
 SW_RESET
 $Comp
-L GridsNanoV3-rescue:SW_Push-Switch RESET2
+L NanoGris-rescue:SW_Push-Switch-GridsNanoV3-rescue RESET2
 U 1 1 5F6FA71D
 P 8850 12850
 F 0 "RESET2" H 8850 13135 50  0000 C CNN
@@ -3368,7 +3368,7 @@ F 3 "~" H 8850 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0160
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0160
 U 1 1 5F6FBEF3
 P 9050 13000
 AR Path="/5F6FBEF3" Ref="#PWR0160"  Part="1" 
@@ -3389,7 +3389,7 @@ Text GLabel 15400 12550 0    50   BiDi ~ 0
 SW_RESET
 NoConn ~ 3550 3000
 $Comp
-L GridsNanoV3-rescue:Fiducial-Mechanical FID1
+L NanoGris-rescue:Fiducial-Mechanical-GridsNanoV3-rescue FID1
 U 1 1 5DFC105A
 P 22300 14300
 F 0 "FID1" H 22385 14346 50  0000 L CNN
@@ -3400,7 +3400,7 @@ F 3 "~" H 22300 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:Fiducial-Mechanical FID2
+L NanoGris-rescue:Fiducial-Mechanical-GridsNanoV3-rescue FID2
 U 1 1 5DFE5632
 P 22300 14500
 F 0 "FID2" H 22385 14546 50  0000 L CNN
@@ -3411,7 +3411,7 @@ F 3 "~" H 22300 14500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GridsNanoV3-rescue:GND-power #PWR0161
+L NanoGris-rescue:GND-power-GridsNanoV3-rescue #PWR0161
 U 1 1 5E7C622F
 P 8750 14150
 AR Path="/5E7C622F" Ref="#PWR0161"  Part="1" 
