@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name GridsNanoV3-rescue)(type Legacy)(uri ${KIPRJMOD}/GridsNanoV3-rescue.lib)(options "")(descr ""))
+  (lib (name NanoGris-rescue)(type Legacy)(uri ${KIPRJMOD}/NanoGris-rescue.lib)(options "")(descr ""))
 )

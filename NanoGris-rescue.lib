@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +12V-power
+# +12V-power-GridsNanoV3-rescue
 #
-DEF +12V-power #PWR 0 0 Y Y 1 F P
+DEF +12V-power-GridsNanoV3-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+12V-power" 0 140 50 H V C CNN
+F1 "+12V-power-GridsNanoV3-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +5V-power
+# +5V-power-GridsNanoV3-rescue
 #
-DEF +5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power-GridsNanoV3-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power-GridsNanoV3-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# -12V-power
+# -12V-power-GridsNanoV3-rescue
 #
-DEF -12V-power #PWR 0 0 Y Y 1 F P
+DEF -12V-power-GridsNanoV3-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 100 50 H I C CNN
-F1 "-12V-power" 0 150 50 H V C CNN
+F1 "-12V-power-GridsNanoV3-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -44,11 +44,11 @@ X -12V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# 2N3904-Transistor_BJT
+# 2N3904-Transistor_BJT-GridsNanoV3-rescue
 #
-DEF 2N3904-Transistor_BJT Q 0 0 Y N 1 F N
+DEF 2N3904-Transistor_BJT-GridsNanoV3-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "2N3904-Transistor_BJT" 200 0 50 H V L CNN
+F1 "2N3904-Transistor_BJT-GridsNanoV3-rescue" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -66,11 +66,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 74HC595-74xx
+# 74HC595-74xx-GridsNanoV3-rescue
 #
-DEF 74HC595-74xx U 0 20 Y Y 1 F N
+DEF 74HC595-74xx-GridsNanoV3-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 550 50 H V C CNN
-F1 "74HC595-74xx" -300 -650 50 H V C CNN
+F1 "74HC595-74xx-GridsNanoV3-rescue" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -101,11 +101,11 @@ X QH' 9 400 -500 100 L 50 50 1 0 O
 ENDDRAW
 ENDDEF
 #
-# Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue
+# Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue-GridsNanoV3-rescue
 #
-DEF Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue A 0 20 Y Y 1 F N
+DEF Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue-GridsNanoV3-rescue A 0 20 Y Y 1 F N
 F0 "A" -200 1025 50 H V R CNN
-F1 "Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue" -200 950 50 H V R CNN
+F1 "Arduino_Nano_v2.x-MCU_Module-GridsNanoV2-rescue-GridsNanoV3-rescue" -200 950 50 H V R CNN
 F2 "Module:Arduino_Nano" 150 -950 50 H I L CNN
 F3 "" 0 -1000 50 H I C CNN
 $FPLIST
@@ -146,11 +146,11 @@ X D6 9 -500 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# AudioJack2-Connector
+# AudioJack2-Connector-GridsNanoV3-rescue
 #
-DEF AudioJack2-Connector J 0 20 Y Y 1 F N
+DEF AudioJack2-Connector-GridsNanoV3-rescue J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "AudioJack2-Connector" 0 250 50 H V C CNN
+F1 "AudioJack2-Connector-GridsNanoV3-rescue" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -166,11 +166,11 @@ X ~ T 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C-Device
+# C-Device-GridsNanoV3-rescue
 #
-DEF C-Device C 0 10 N Y 1 F N
+DEF C-Device-GridsNanoV3-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C-Device" 25 -100 50 H V L CNN
+F1 "C-Device-GridsNanoV3-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -184,11 +184,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CP-Device
+# CP-Device-GridsNanoV3-rescue
 #
-DEF CP-Device C 0 10 N Y 1 F N
+DEF CP-Device-GridsNanoV3-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "CP-Device" 25 -100 50 H V L CNN
+F1 "CP-Device-GridsNanoV3-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -204,11 +204,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x03-Connector_Generic
+# Conn_01x03-Connector_Generic-GridsNanoV3-rescue
 #
-DEF Conn_01x03-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x03-Connector_Generic-GridsNanoV3-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Conn_01x03-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x03-Connector_Generic-GridsNanoV3-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -225,11 +225,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x10-Connector_Generic
+# Conn_01x10-Connector_Generic-GridsNanoV3-rescue
 #
-DEF Conn_01x10-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x10-Connector_Generic-GridsNanoV3-rescue J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Conn_01x10-Connector_Generic" 0 -600 50 H V C CNN
+F1 "Conn_01x10-Connector_Generic-GridsNanoV3-rescue" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -260,11 +260,11 @@ X Pin_9 9 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x12-Connector_Generic
+# Conn_01x12-Connector_Generic-GridsNanoV3-rescue
 #
-DEF Conn_01x12-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x12-Connector_Generic-GridsNanoV3-rescue J 0 40 Y N 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "Conn_01x12-Connector_Generic" 0 -700 50 H V C CNN
+F1 "Conn_01x12-Connector_Generic-GridsNanoV3-rescue" 0 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -299,11 +299,11 @@ X Pin_9 9 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_02x05_Odd_Even-Connector_Generic
+# Conn_02x05_Odd_Even-Connector_Generic-GridsNanoV3-rescue
 #
-DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x05_Odd_Even-Connector_Generic-GridsNanoV3-rescue J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F1 "Conn_02x05_Odd_Even-Connector_Generic-GridsNanoV3-rescue" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -334,11 +334,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D-Device
+# D-Device-GridsNanoV3-rescue
 #
-DEF D-Device D 0 40 N N 1 F N
+DEF D-Device-GridsNanoV3-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D-Device" 0 -100 50 H V C CNN
+F1 "D-Device-GridsNanoV3-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -356,11 +356,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Fiducial-Mechanical
+# Fiducial-Mechanical-GridsNanoV3-rescue
 #
-DEF Fiducial-Mechanical FID 0 20 Y Y 1 F N
+DEF Fiducial-Mechanical-GridsNanoV3-rescue FID 0 20 Y Y 1 F N
 F0 "FID" 0 200 50 H V C CNN
-F1 "Fiducial-Mechanical" 0 125 50 H V C CNN
+F1 "Fiducial-Mechanical-GridsNanoV3-rescue" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -371,11 +371,11 @@ C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
-# GND-power
+# GND-power-GridsNanoV3-rescue
 #
-DEF GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power-GridsNanoV3-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-power" 0 -150 50 H V C CNN
+F1 "GND-power-GridsNanoV3-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -384,11 +384,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# L7805-Regulator_Linear
+# L7805-Regulator_Linear-GridsNanoV3-rescue
 #
-DEF L7805-Regulator_Linear U 0 10 Y Y 1 F N
+DEF L7805-Regulator_Linear-GridsNanoV3-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "L7805-Regulator_Linear" 0 125 50 H V L CNN
+F1 "L7805-Regulator_Linear-GridsNanoV3-rescue" 0 125 50 H V L CNN
 F2 "" 25 -150 50 H I L CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -404,11 +404,11 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# LED-Device
+# LED-Device-GridsNanoV3-rescue
 #
-DEF LED-Device D 0 40 N N 1 F N
+DEF LED-Device-GridsNanoV3-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device-GridsNanoV3-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -427,11 +427,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LM4040LP-5-Reference_Voltage
+# LM4040LP-5-Reference_Voltage-GridsNanoV3-rescue
 #
-DEF LM4040LP-5-Reference_Voltage U 0 1 Y N 1 F N
+DEF LM4040LP-5-Reference_Voltage-GridsNanoV3-rescue U 0 1 Y N 1 F N
 F0 "U" 0 100 50 H V C CNN
-F1 "LM4040LP-5-Reference_Voltage" 0 -125 50 H V C CNN
+F1 "LM4040LP-5-Reference_Voltage-GridsNanoV3-rescue" 0 -125 50 H V C CNN
 F2 "Package_TO_SOT_THT:TO-92_Inline" 0 -200 50 H I C CIN
 F3 "" 0 0 50 H I C CIN
 $FPLIST
@@ -446,11 +446,11 @@ X A 3 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCP6002-xP-Amplifier_Operational
+# MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue
 #
-DEF MCP6002-xP-Amplifier_Operational U 0 5 Y Y 3 L N
+DEF MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue U 0 5 Y Y 3 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "MCP6002-xP-Amplifier_Operational" 0 -200 50 H V L CNN
+F1 "MCP6002-xP-Amplifier_Operational-GridsNanoV3-rescue" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -480,11 +480,11 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# MountingHole-Mechanical
+# MountingHole-Mechanical-GridsNanoV3-rescue
 #
-DEF MountingHole-Mechanical H 0 40 Y Y 1 F N
+DEF MountingHole-Mechanical-GridsNanoV3-rescue H 0 40 Y Y 1 F N
 F0 "H" 0 200 50 H V C CNN
-F1 "MountingHole-Mechanical" 0 125 50 H V C CNN
+F1 "MountingHole-Mechanical-GridsNanoV3-rescue" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -495,11 +495,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# PWR_FLAG-power
+# PWR_FLAG-power-GridsNanoV3-rescue
 #
-DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power-GridsNanoV3-rescue #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power-GridsNanoV3-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -508,11 +508,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# R-Device
+# R-Device-GridsNanoV3-rescue
 #
-DEF R-Device R 0 0 N Y 1 F N
+DEF R-Device-GridsNanoV3-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R-Device" 0 0 50 V V C CNN
+F1 "R-Device-GridsNanoV3-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -525,11 +525,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_POT-Device
+# R_POT-Device-GridsNanoV3-rescue
 #
-DEF R_POT-Device RV 0 40 Y N 1 F N
+DEF R_POT-Device-GridsNanoV3-rescue RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "R_POT-Device" -100 0 50 V V C CNN
+F1 "R_POT-Device-GridsNanoV3-rescue" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -545,11 +545,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SW_Push-Switch
+# SW_Push-Switch-GridsNanoV3-rescue
 #
-DEF SW_Push-Switch SW 0 40 N N 1 F N
+DEF SW_Push-Switch-GridsNanoV3-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch-GridsNanoV3-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
